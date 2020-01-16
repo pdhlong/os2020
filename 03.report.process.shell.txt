@@ -1,0 +1,31 @@
+ps -A
+firefox
+pgrep firefox
+cat /proc/4213/status
+kill -STOP 4213
+kill -CONT 4213
+kill -KILL 4213
+
+3786 ?        00:00:00 kworker/0:0
+ 3787 ?        00:00:00 kworker/u16:0
+ 4187 ?        00:00:03 lxterminal
+ 4188 ?        00:00:00 gnome-pty-helpe
+ 4189 pts/0    00:00:00 bash
+ 4374 ?        00:00:00 kworker/u16:1
+ 4393 ?        00:00:00 kworker/0:1
+ 4419 ?        00:00:00 kworker/u16:2
+ 4420 ?        00:00:00 leafpad
+ 4436 pts/0    00:00:00 ps
+
+4213
+
+Name:	firefox
+Umask:	0002
+State:	T (stopped)
+Tgid:	4213
+Ngid:	0
+Pid:	4213
+PPid:	4189
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
