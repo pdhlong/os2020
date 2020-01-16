@@ -1,0 +1,21 @@
+grep list * -R
+wc /etc/passwd
+free
+grep -m 1 'cpu cores' /proc/cpuinfo
+find -type f -name *.jpg| wc -l
+
+os2020/.git/hooks/pre-rebase.sample:not_in_master=`git rev-list --pretty=oneline ^master "$topic"`
+os2020/.git/hooks/pre-rebase.sample:only_next_1=`git rev-list ^master "^$topic" ${publish} | sort`
+os2020/.git/hooks/pre-rebase.sample:only_next_2=`git rev-list ^master           ${publish} | sort`
+os2020/.git/hooks/pre-rebase.sample:	not_in_topic=`git rev-list "^$topic" master`
+os2020/.git/hooks/pre-rebase.sample:	not_in_next=`git rev-list --pretty=oneline ^${publish} "$topic"`
+os2020/.git/hooks/pre-rebase.sample:	git rev-list ^master ^topic next
+os2020/.git/hooks/pre-rebase.sample:	git rev-list ^master        next
+os2020/.git/hooks/pre-rebase.sample:	git rev-list master..topic
+os2020/.git/hooks/pre-push.sample:		commit=`git rev-list -n 1 --grep '^WIP' "$range"`
+  33   48 1737 /etc/passwd
+              total        used        free      shared  buff/cache   available
+Mem:         954852      126508      487212        7452      341132      680008
+Swap:       1225724           0     1225724
+cpu cores	: 1
+35
