@@ -1,0 +1,59 @@
+echo hello world
+passwd
+date
+hostname
+arch
+uname -a 
+dmesg
+uptime 
+who am i
+whoami
+who
+id
+last
+finger 
+w
+
+hello world
+Changing password for lubuntu.
+Thứ năm, 16 Tháng một năm 2020 09:16:07 +07
+lubuntu-virtual-machine
+i686
+Linux lubuntu-virtual-machine 4.15.0-74-generic #83~16.04.1-Ubuntu SMP Wed Dec 18 04:55:53 UTC 2019 i686 i686 i686 GNU/Linux
+[   27.066714] audit: type=1400 audit(1579140071.763:12): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=475 comm="apparmor_parser"
+[   27.273078] audit: type=1400 audit(1579140071.971:13): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ntpd" pid=646 comm="apparmor_parser"
+[   27.483629] audit: type=1400 audit(1579140072.179:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=650 comm="apparmor_parser"
+[   32.232969] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   32.232971] Bluetooth: BNEP filters: protocol multicast
+[   32.232977] Bluetooth: BNEP socket layer initialized
+[   34.979682] IPv6: ADDRCONF(NETDEV_UP): ens33: link is not ready
+[   34.980594] pcnet32 0000:02:01.0 ens33: link up
+[   66.614834] ISO 9660 Extensions: Microsoft Joliet Level 3
+[   66.756568] ISO 9660 Extensions: RRIP_1991A
+ 09:20:56 up 20 min,  1 user,  load average: 0,10, 0,09, 0,14
+lubuntu
+lubuntu  tty7         2020-01-16 09:01 (:0)
+uid=1000(lubuntu) gid=1000(lubuntu) groups=1000(lubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),120(lpadmin),121(sambashare)
+lubuntu  tty7         :0               Thu Jan 16 09:01    gone - no logout
+reboot   system boot  4.15.0-74-generi Thu Jan 16 09:00   still running
+lubuntu  tty7         :0               Thu Jan 16 08:17 - crash  (00:42)
+reboot   system boot  4.10.0-28-generi Thu Jan 16 08:16   still running
+lubuntu  tty7         :0               Mon Jan 13 13:23 - crash (2+18:53)
+reboot   system boot  4.10.0-28-generi Mon Jan 13 13:22   still running
+lubuntu  tty7         :0               Fri Jan 10 14:13 - crash (2+23:09)
+reboot   system boot  4.10.0-28-generi Fri Jan 10 14:13   still running
+lubuntu  tty7         :0               Fri Jan 10 14:09 - crash  (00:03)
+reboot   system boot  4.10.0-28-generi Fri Jan 10 14:09   still running
+lubuntu  tty7         :0               Fri Jan 10 13:33 - crash  (00:35)
+reboot   system boot  4.10.0-28-generi Fri Jan 10 13:33   still running
+lubuntu  tty7         :0               Fri Jan 10 13:32 - crash  (00:01)
+reboot   system boot  4.10.0-28-generi Fri Jan 10 13:31   still running
+lubuntu  tty7         :0               Thu Jan  9 16:42 - crash  (20:48)
+reboot   system boot  4.10.0-28-generi Thu Jan  9 16:41   still running
+
+wtmp begins Thu Jan  9 16:41:54 2020
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+lubuntu   lubuntu    tty7       22  Jan 16 09:01 (:0)
+ 09:23:37 up 22 min,  1 user,  load average: 0,06, 0,06, 0,11
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+lubuntu  tty7     :0               09:01   22:30  28.16s  1.52s /usr/bin/lxsession -s Lubuntu -e LXDE
