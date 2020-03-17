@@ -1,0 +1,26 @@
+command: cat /proc/sched_debug
+
+ I    kworker/0:2  3287    178814.392394      1628   120         0.000000        66.779464         0.000000 /
+ I  kworker/u16:1  3293    178814.942111       530   120         0.000000        23.560765         0.000000 /
+ R     lxterminal  3308    541172.795859      1943   120         0.000000       563.690299         0.000000 /autogroup-66
+ S          gmain  3313    541167.389698        63   120         0.000000         4.466311         0.000000 /autogroup-66
+ S          gdbus  3321    540735.893194        44   120         0.000000         2.429481         0.000000 /autogroup-66
+ Sgnome-pty-helpe  3309    540663.693320         7   120         0.000000         3.158554         0.000000 /autogroup-66
+ S           bash  3310       343.874223        84   120         0.000000        52.846442         0.000000 /autogroup-105
+ S           sudo  3331       403.390283        17   120         0.000000        57.726198         0.000000 /autogroup-105
+ S           bash  3332       630.872682        62   120         0.000000        95.026064         0.000000 /autogroup-105
+>R            cat  3351       633.976227        29   120         0.000000         2.358003         0.000000 /autogroup-105
+
+command: cat /proc/1/sched
+
+se.avg.load_sum                              :                  242
+se.avg.runnable_load_sum                     :                  242
+se.avg.util_sum                              :               200704
+se.avg.load_avg                              :                    0
+se.avg.runnable_load_avg                     :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :        7374757671936
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                  115
+
