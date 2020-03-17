@@ -19,11 +19,12 @@ void *printPrimeNumbers(void *n)
   {
    printf("%d  ", i);
   }
+ }
 }
 
 void *printFiboSequence(void *n)
 {
- int i, t1 = 2, t2 = 3; nextTerm;
+ int i, t1 = 2, t2 = 3, nextTerm;
  printf("%d  ", t1);
  printf("%d  ", t2);
  nextTerm = t1 + t2;
