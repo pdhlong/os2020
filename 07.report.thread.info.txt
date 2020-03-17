@@ -1,0 +1,9 @@
+firefox pid 3401
+
+command: ps -o nlwp 3401
+
+NLWP
+  52
+
+
+
